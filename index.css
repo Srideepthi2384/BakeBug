@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    background-color: rgb(245, 180, 180);
+  }
+
+  .nav_logo,
+  .nav_link,
+  .button {
+    color: #fa5b0f;
+  }
+  .nav_link:hover {
+    color: #f1e9e9;
+  }
+.logo{
+  padding-left: 60px;
+  padding-top: 8px;
+
+}
+  .nav_logo {
+    height: 100px;
+    width: 100px;
+  }
+  .button {
+    padding: 6px 24px;
+    border: 2px solid #fa5b0f;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color:#fa5b0f;
+    color: white;
+  }
+  .button:active{
+    transform: scale(0.98);
+  }
+  .button:hover{
+    background-color: bisque;
+    color: black;
+  }
+  .image1{
+    height: 60vh;
+    margin-right: 130px;
+    margin-top: 50px;
+    float: right;
+    display: flex;
+  }
+  .Homecontainer{
+    padding-top: 60px;
+    padding-left: 150px;
+    font-family: sans-serif;
+    font-size: 37px;
+  }
+  .Hello{
+    color: white;
+    
+  }
+  .name{
+    color:#fa5b0f;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+  }
+  .study{
+    color:white;
+    font-family: cursive;
+  }
+  .hobbie{
+    color:white;
+  }
+button{
+    padding: 60px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.button1{
+    border-color: #fa5b0f;
+    background-color:#fa5b0f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:white;
+    border-radius: 10px;
+}
+
+.button1:hover{
+    background-color: bisque;
+    color: black;
+  }
+  
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  padding-top: 30px;
+  font-size: 1.2rem;
+}
+.menu ul li{
+  list-style: none;
+  margin: 0px 35px 0px 0px;
+  display: inline-block;
+}
+.menu ul li a{
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: center;
+  /* padding: 0 130px; */
+  width: 100%;
+}
+.bar{
+  font-size: 2rem;
+  color: #fa5b0f;
+  padding: 25px;
+  display: none;
+}
+.dropdown{
+  background-color: #ec8d8d;
+  padding: 10px;
+  position: absolute;
+  top: 4rem;
+  right: 5%;
+  display: none;
+}
+.dropdown li{
+  list-style: none;
+ 
+}
+.dropdown li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'PFAgoraSlabProItalic', Arial, Helvetica, sans-serif;
+  text-align: -webkit-match-parent;
+}
+.drop-menu:hover .dropdown{
+  display: block;
+}
+@media only screen and (max-width: 1100px){
+  .bar{
+    display: block;
+  }
+  .menu, .log{
+    display: none;
+  }
+
+  
+}
+@media only screen and (max-width: 800px){
+  
+    .home{
+        width: 100%;
+        text-align: center;
+        padding:10%;
+    }
+}
